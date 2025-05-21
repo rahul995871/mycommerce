@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prekies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- mobile-header -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body pt-2">
+        <form role="search">
+          <div class="search-bar w-100 mb-3 py-2">
+            <input type="text" placeholder="search" class="w-100" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <div>
+          <ul class="navbar-nav mb-2 mb-lg-0 c-nav gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-header-end -->
+
+    <!-- top-header -->
+
+    <div class="section m-0 p-0">
+      <div class="">
+        <div class="top-header">
+          <ul class="social-icons d-lg-flex d-none">
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+          </ul>
+
+          <div class="small-tag fw-semibold d-lg-flex d-none">
+            <small class="text-light"
+              >GRAB IT BEFORE IT'S GONE... SALE'S NOW UP TO 70% OFF</small
+            >
+            <!-- <ul class="social-phone d-flex">
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-phone"></i>
+                  <small>+011 2323-2323</small></a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-phone"></i>
+                  <small>+011 2323-2323</small></a
+                >
+              </li>
+            </ul> -->
+          </div>
+
+          <div>
+            <ul class="social-address p-0">
+              <li class="d-flex align-items-center gap-2">
+                <a
+                  href="dashboard.html"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-user"></i>
+                  <div>
+                    <a href="login.html" class="text-decoration-none text-light"
+                      ><small>Login</small></a
+                    >
+                    <span class="text-light px-1">|</span>
+                    <a href="login.html" class="text-decoration-none text-light"
+                      ><small>Sign Up</small></a
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-lg-none d-flex align-items-center gap-3">
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+            <a href="cart.html">  <img src="./images/cart.png" alt="" class="img-fluid" /></a>
+            </div>
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="wishlist.html"><img src="./images/wishlist.png" alt="" class="img-fluid" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-header-end -->
+
+    <!-- header -->
+    <div class="section m-0 p-0 c-header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="./images/logo.png" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse gap-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 c-nav gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html#categories"
+                    >Categories</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <form role="search">
+                <div class="search-bar">
+                  <input type="text" placeholder="search" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </form>
+              <div class="cart-icon">
+                <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="cart.html">  <img src="./images/cart.png" alt="" class="img-fluid" /></a>
+              </div>
+              <div class="cart-icon">
+                <!-- <span class="cart-count"><small>1</small></span> -->
+                <a href="wishlist.html"><img src="./images/wishlist.png" alt="" class="img-fluid" /></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- header-end -->
+
+
+        <!-- about-heading -->
+
+        <div class="section m-0 sub-blob">
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="text-center position-relative" style="z-index: 1;">
+                            <h1 class="text-light bottom-border position-relative ">Contact Us</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about-heading-end -->
+
+
+
+        <!-- about-us -->
+
+        <div class="section m-0 pt-4  pt-lg-5 pb-4  pb-lg-5 contact-bg">
+            <div class="container">
+                <div class="row  justify-content-evenly gy-3 gx-0">
+                   
+                  <div class="col-md-3 border-top justify-content-center text-center card py-4 pb-5 px-3">
+                    <div><i class="bi bi-geo-alt-fill fs-2 col-primary"></i></div>
+                    <div>
+                      <p class="fw-semibold my-1 py-1">Our Office</p>
+                      <small>SoHo 94 Broadway St New York, NY 1001</small>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3 border-top justify-content-center text-center card py-4 pb-5 px-3">
+                    <div><i class="bi bi-telephone-fill fs-2 col-primary"></i></div>
+                    <div>
+                      <p class="fw-semibold my-1 py-1">Phone No</p>
+                      <small>+91-9485765486</small>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-3 border-top justify-content-center text-center card py-4 pb-5 px-3">
+                    <div><i class="bi bi-envelope-fill fs-2 col-primary"></i></div>
+                    <div>
+                      <p class="fw-semibold my-1 py-1">Email</p>
+                      <small>infoprekies@gmail.com</small>
+                    </div>
+
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about-us-end -->
+
+        <!-- section02 -->
+
+        <div class="section m-0 pt-3 bg-primary pb-4 pb-lg-5">
+          <div class="container">
+            <div class="row  justify-content-between  text-light">
+              <div class="col-lg-6" >
+                  <div class="about-tag bg-light mb-1">
+                      <p class="fw-semibold fs-3 m-0 text-dark px-1">Contact Us</p>
+                  </div>
+
+                  <div>
+                      <p class="fw-semibold m-0 my-3 side-border position-relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reiciendis?</p>
+                      
+                      <div class="py-1">
+                          <small>
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore qui n Accusantium eius possimus odit veniam laboriosam. Harum, cumque neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, illum?
+                          </small>
+                      </div>
+                      <div class="mt-4">
+                        <ul class="s-icons p-0">
+                          <li class="bg-light">
+                            <a href="#"><i class="text-dark fa-brands fa-facebook-f"></i></a>
+                          </li>
+                          <li class="bg-light">
+                            <a href="#"><i class="text-dark fa-brands fa-twitter"></i></a>
+                          </li>
+                          <li class="bg-light">
+                            <a href="#"><i class="text-dark fa-brands fa-instagram"></i></a>
+                          </li>
+                          <li class="bg-light">
+                            <a href="#"><i class="text-dark fa-brands fa-pinterest-p"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-6" >
+                <div class="mt-3">
+                  <form action="">
+                    <div class="row">
+                     <div class="col-md-6">
+                         <div class="mb-4 sign-form-inp rounded">
+                             <label for="exampleInputEmail1" class="form-label"
+                               ><i class="text-dark bi bi-person-fill fs-6"></i></label
+                             >
+                             <input
+                               type="text"
+                               placeholder="Name"
+                               class="form-control"
+                               id="exampleInputEmail1"
+                               aria-describedby="emailHelp"
+                             />
+                           </div>
+                     </div>
+ 
+                     <div class="col-md-6">
+                         <div class="mb-4 sign-form-inp rounded">
+                             <label for="exampleInputEmail1" class="form-label"
+                               ><i class="text-dark bi bi-telephone-fill"></i></label
+                             >
+                             <input
+                               type="text"
+                               placeholder="Phone No"
+                               class="form-control"
+                               id="exampleInputEmail1"
+                               aria-describedby="emailHelp"
+                             />
+                           </div>
+                     </div>
+ 
+                     <div class="col-md-12">
+                         <div class="mb-4 sign-form-inp rounded">
+                             <label for="exampleInputEmail1" class="form-label"
+                               ><i class="text-dark bi bi-envelope-fill"></i></label
+                             >
+                             <input
+                               type="text"
+                               placeholder="Email"
+                               class="form-control"
+                               id="exampleInputEmail1"
+                               aria-describedby="emailHelp"
+                             />
+                           </div>
+                     </div>
+ 
+                    
+                     <div class="col-md-12">
+                         <div class="mb-4 sign-form-inp rounded">
+                             <label for="exampleInputEmail1" class="form-label align-self-baseline mt-1 pt-1"
+                               ><i class="bi bi-chat-right-text-fill text-dark"></i></label
+                             >
+                       
+                              <textarea style="height: 100px;" class="form-control" placeholder="Write your message" id="floatingTextarea"></textarea>
+                            
+                           </div>
+                     </div>
+ 
+                    </div>
+                      
+                  </form>
+ 
+                   <div class="d-flex align-items-center   gap-3">
+                    
+ 
+                     <div class="product-cart-btn w-100">
+                       <a href="#" class="px-3 bg-dark py-2 w-100"
+                         ><small class="fw-semibold">SUBMIT</small></a
+                       >
+                     </div>
+                   </div>
+                 </div>
+              </div>
+
+          </div>
+          </div>
+        </div>
+
+        <!-- section02-end -->
+
+
+
+   
+
+    
+    
+
+    <!-- Footer
+		============================================= -->
+    <footer id="footer" class="border-0 text-light bg-dark">
+      <div class="section m-0 pt-md-5 pt-4 pb-0 footer-border">
+        <div class="container-fluid">
+          <div
+            class="row justify-content-between g-md-0 g-5 align-items-center"
+          >
+            <div class="col-md-3 c-foot col-8 text-center mx-auto mx-md-0">
+              <div class="">
+                <img src="./images/footer-logo.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Quick Links</h5>
+                <ul>
+                  <li><a href="about.html">About</a></li>
+
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="term-condition.html">Terms & Conditions</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">My Account</h5>
+                <ul>
+                  <li><a href="wishlist.html">My Wishlist</a></li>
+                  <li><a href="order.html">My Order</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="login.html">Login/Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Contact Us</h5>
+                <ul class="mb-3">
+                  <li>
+                    <a href="" class="d-flex gap-2 my-1"
+                      ><i class="fa-solid fa-envelope col-b"></i>
+                      info@prekies.co.in</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="d-flex gap-2"
+                      ><i class="fa-solid fa-phone col-b"></i> 1234 4321</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="s-icons">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyrights
+			============================================= -->
+
+      <div class="section m-0 py-1 bg-dark text-light">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center py-2 mx-3">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <small class="m-0"
+                >&copy; 2023 Prekies. All Rights Reserved.</small
+              >
+            </div>
+
+            <div class="col-md-3">
+              <ul
+                class="pay-card justify-content-md-end justify-content-center"
+              >
+                <li>
+                  <a href="#"><img src="./images/visa.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/mastercard.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/paypal.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/american-express.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #copyrights end -->
+    </footer>
+    <!-- #footer end -->
+    <a id="back-to-top" href="#" class=" back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/index.js"></script>
+    <script>
+      $(".home-slider").slick({
+        autoplay: true,
+        slidesToShow: 1,
+        infinite: true,
+        pauseOnHover: false,
+        autoplaySpeed: 2000,
+        arrows: false,
+        fade: true,
+        centerMode: true,
+        centerPadding: "1px",
+        cssEase: "linear",
+      });
+    </script>
+
+    <script>
+     
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $(".testimonial").slick({
+        dots: true,
+        autoplay: false,
+
+        infinite: true,
+        arrows: false,
+        prevArrow:
+          '<div class="slick-arrow slick-prev fa-solid fa-arrow-left"></div>',
+        nextArrow:
+          '<div class="slick-arrow slick-next fa-solid fa-arrow-right"></div>',
+        speed: 350,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 786,
+            settings: {
+              arrows: false,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>

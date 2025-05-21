@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prekies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- mobile-header -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body pt-2">
+        <form role="search">
+          <div class="search-bar w-100 mb-3 py-2">
+            <input type="text" placeholder="search" class="w-100" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <div>
+          <ul class="navbar-nav mb-2 mb-lg-0 c-nav gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-header-end -->
+
+    <!-- top-header -->
+
+    <div class="section m-0 p-0">
+      <div class="">
+        <div class="top-header">
+          <ul class="social-icons d-lg-flex d-none">
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+          </ul>
+
+          <div class="small-tag fw-semibold d-lg-flex d-none">
+            <small class="text-light"
+              >GRAB IT BEFORE IT'S GONE... SALE'S NOW UP TO 70% OFF</small
+            >
+            <!-- <ul class="social-phone d-flex">
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-phone"></i>
+                  <small>+011 2323-2323</small></a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-phone"></i>
+                  <small>+011 2323-2323</small></a
+                >
+              </li>
+            </ul> -->
+          </div>
+
+          <div>
+            <ul class="social-address p-0">
+              <li class="d-flex align-items-center gap-2">
+                <a
+                  href="dashboard.html"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-user"></i>
+                  <div>
+                    <a href="login.html" class="text-decoration-none text-light"
+                      ><small>Login</small></a
+                    >
+                    <span class="text-light px-1">|</span>
+                    <a href="login.html" class="text-decoration-none text-light"
+                      ><small>Sign Up</small></a
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-lg-none d-flex align-items-center gap-3">
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+            <a href="cart.html">  <img src="./images/cart.png" alt="" class="img-fluid" /></a>
+            </div>
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="wishlist.html"><img src="./images/wishlist.png" alt="" class="img-fluid" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-header-end -->
+
+    <!-- header -->
+    <div class="section m-0 p-0 c-header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="./images/logo.png" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse gap-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 c-nav gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html#categories"
+                    >Categories</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <form role="search">
+                <div class="search-bar">
+                  <input type="text" placeholder="search" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </form>
+
+              <div class="cart-icon">
+                <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="cart.html">  <img src="./images/cart.png" alt="" class="img-fluid" /></a>
+              </div>
+              <div class="cart-icon">
+                <!-- <span class="cart-count"><small>1</small></span> -->
+                <a href="wishlist.html"><img src="./images/wishlist.png" alt="" class="img-fluid" /></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- header-end -->
+
+
+   
+
+
+
+   <div class="section m-0 pt-5">
+    <div class="container">
+      <!-- <div class="cart-heading">
+        <h4>Cart</h4>
+
+      </div> -->
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row cart-card m-0">
+                <div class="col-md-8 p-4">
+                    <div class="pb-3 d-flex align-items-center justify-content-between cart-bottom-border position-relative">
+                        <div><p class="fw-semibold fs-4 m-0 position-relative side-border px-1">Shopping Cart</p></div>
+                        <div><small><span>3</span> items</small></div>
+                    </div>
+                    
+                    <div class="cart-bottom-border cart-list position-relative py-4 justify-content-between row align-items-center">
+                        <div class="cart-list-close"><i class="fa-solid fa-xmark"></i></div>
+                        
+                        <div class="cart-list-img col-md-2 mx-auto mx-md-0 col-6 mb-4 mb-md-0">
+                            <img src="./images/shirt.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-6 mb-4 mb-md-0">
+                            <div><small class="fw-semibold">Shirt</small></div>
+                            <div><small><span class="fw-semibold">Color:</span><span class="filter-colors" style="background-color: orangered;"></span> Orange</small></div>
+                            <div><small><span class="fw-semibold">Size:</span> <span>1-3Y</span></small></div>
+                        </div>
+
+                        <div class="col-md-3 col-6 ">
+                            <div class="cart-number2 ">
+                                <button class="minus">-</button>
+                                <input type="text" value="1"/>
+                                <button class="plus">+</button>
+                              </div>
+                        </div>
+
+                        <div class="col-md-2 col-6  ">
+                            <div><small class="fw-semibold">&#8377; 599</small></div>
+                        </div>
+                    </div>
+                    <div class="cart-bottom-border cart-list position-relative py-4 justify-content-between row align-items-center">
+                        <div class="cart-list-close"><i class="fa-solid fa-xmark"></i></div>
+                        
+                        <div class="cart-list-img col-md-2 mx-auto mx-md-0 col-6 mb-4 mb-md-0">
+                            <img src="./images/shirt2.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-6 mb-4 mb-md-0">
+                            <div><small class="fw-semibold">Shirt</small></div>
+                            <div><small><span class="fw-semibold">Color:</span><span class="filter-colors" style="background-color: blue;"></span> Blue</small></div>
+                            <div><small><span class="fw-semibold">Size:</span> <span>1-3Y</span></small></div>
+                        </div>
+
+                        <div class="col-md-3 col-6 ">
+                            <div class="cart-number2 ">
+                                <button class="minus">-</button>
+                                <input type="text" value="1"/>
+                                <button class="plus">+</button>
+                              </div>
+                        </div>
+
+                        <div class="col-md-2 col-6  ">
+                            <div><small class="fw-semibold">&#8377; 599</small></div>
+                        </div>
+                    </div>
+
+                    <div class="cart-bottom-border cart-list position-relative py-4 justify-content-between row align-items-center">
+                        <div class="cart-list-close"><i class="fa-solid fa-xmark"></i></div>
+                        
+                        <div class="cart-list-img col-md-2 mx-auto mx-md-0 col-6 mb-4 mb-md-0">
+                            <img src="./images/shirt3.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-3 col-6 mb-4 mb-md-0">
+                            <div><small class="fw-semibold">Shirt</small></div>
+                            <div><small><span class="fw-semibold">Color:</span><span class="filter-colors" style="background-color: black;"></span> Black</small></div>
+                            <div><small><span class="fw-semibold">Size:</span> <span>1-3Y</span></small></div>
+                        </div>
+
+                        <div class="col-md-3 col-6 ">
+                            <div class="cart-number2 ">
+                                <button class="minus">-</button>
+                                <input type="text" value="1"/>
+                                <button class="plus">+</button>
+                              </div>
+                        </div>
+
+                        <div class="col-md-2 col-6  ">
+                            <div><small class="fw-semibold">&#8377; 599</small></div>
+                        </div>
+                    </div>
+
+                    <div class="pt-3">
+                      
+                      <a href="products.html" class="text-decoration-none text-dark"><small><span><i class="fa-solid fa-arrow-right fa-flip-horizontal col-primary"></i> </span> Back to shop</small></a>
+                  </div>
+
+                    
+
+                 
+
+                  
+
+                </div>
+
+
+                <div class="col-md-4 p-4  cart-righ-bar">
+                  <div class="pb-3 d-flex align-items-center justify-content-between cart-bottom-border  position-relative">
+                    <div><p class="fw-semibold fs-5 m-0">Summary</p></div>
+                   
+                </div>
+                <div class="pb-3 pt-2 d-flex align-items-center justify-content-between  position-relative">
+                  <div><small class="fw-semibold  m-0">Items</small></div>
+                  <div><small><span>3</span></small></div>
+              </div>
+              <div class="pb-3 d-flex align-items-center justify-content-between  position-relative">
+                <div><small class="fw-semibold  m-0">Total MRP</small></div>
+                <div><small><span>&#8377; 599</span></small></div>
+            </div>
+            <div class="pb-3 d-flex align-items-center justify-content-between  position-relative">
+              <div><small class="fw-semibold  m-0">Shipping Fee</small></div>
+              <div><small><span>&#8377; 65</span></small></div>
+          </div>
+          <div class="pb-3 d-flex align-items-center justify-content-between  position-relative">
+            <div><small class="fw-semibold  m-0">Discount on MRP</small></div>
+            <div><small><span>5%</span></small></div>
+        </div>
+
+        <div class="pb-3 cart-bottom-border   position-relative">
+          <div class="pb-2"><small class="fw-semibold  m-0">Apply Coupon</small></div>
+          <div><div class="mt-1">
+           
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your code">
+          </div></div>
+      </div>
+
+      <div class="py-3 mt-1 d-flex align-items-center justify-content-between  position-relative">
+        <div><small class="fw-semibold  m-0">Total Amount</small></div>
+        <div><small><span>&#8377; 699</span></small></div>
+    </div>
+
+    <div class="pt-3 ">
+      <div>
+       <a href="checkout.html"> <button>CHECKOUT</button></a>
+      </div>
+     
+  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="section m-0 pt-3">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-11">
+          <div class="text-start mb-3"><small class="fw-semibold fs-6">You may also like:</small></div>
+
+          
+          <div class="row gy-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Trending</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-1.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>New</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-2.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Trending</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-3.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Hot</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-4.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Trending</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-1.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>New</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-2.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Trending</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-3.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Hot</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-4.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="product-card">
+                <div class="product-card-tag">
+                  <p>Hot</p>
+                </div>
+
+                <div class="product-card-wishlist">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div class="heart">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <div class="product-card-img">
+                  <img src="./images/p-4.png" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center px-1 gap-2"
+                >
+                  <div>
+                    <div class="py-1">
+                      <small class="fw-semibold">Bunny Wunny - Indygo</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <small class="fw-semibold">Price:</small>
+                      <s><p>&#8377; 800</p></s>
+                      <p class="col-primary">&#8377; 699</p>
+                    </div>
+                  </div>
+
+                  <div class="cart-btn mt-3">
+                    <button>Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+   </div>
+
+   <!-- Footer
+		============================================= -->
+    <footer id="footer" class="border-0 text-light bg-dark">
+      <div class="section m-0 pt-md-5 pt-4 pb-0 footer-border">
+        <div class="container-fluid">
+          <div
+            class="row justify-content-between g-md-0 g-5 align-items-center"
+          >
+            <div class="col-md-3 c-foot col-8 text-center mx-auto mx-md-0">
+              <div class="">
+                <img src="./images/footer-logo.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Quick Links</h5>
+                <ul>
+                  <li><a href="about.html">About</a></li>
+
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="term-condition.html">Terms & Conditions</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">My Account</h5>
+                <ul>
+                  <li><a href="wishlist.html">My Wishlist</a></li>
+                  <li><a href="order.html">My Order</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="login.html">Login/Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Contact Us</h5>
+                <ul class="mb-3">
+                  <li>
+                    <a href="" class="d-flex gap-2 my-1"
+                      ><i class="fa-solid fa-envelope col-b"></i>
+                      info@prekies.co.in</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="d-flex gap-2"
+                      ><i class="fa-solid fa-phone col-b"></i> 1234 4321</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="s-icons">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyrights
+			============================================= -->
+
+      <div class="section m-0 py-1 bg-dark text-light">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center py-2 mx-3">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <small class="m-0"
+                >&copy; 2023 Prekies. All Rights Reserved.</small
+              >
+            </div>
+
+            <div class="col-md-3">
+              <ul
+                class="pay-card justify-content-md-end justify-content-center"
+              >
+                <li>
+                  <a href="#"><img src="./images/visa.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/mastercard.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/paypal.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/american-express.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #copyrights end -->
+    </footer>
+    <!-- #footer end -->
+    <a id="back-to-top" href="#" class=" back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js'></script><script  src="./script.js"></script>
+
+    <script src="./js/index.js"></script>
+<script>
+  	$('.minus').click(function () {
+        
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+</script>
+<script>
+  
+      // progress-bar
+      var state = 0;
+var stateMax = 4;
+
+function next() {
+	console.log("Next", state);
+	// browser side functions here
+}
+
+function back() {
+	console.log("Back", state);
+	// browser side functions here
+}
+
+$("#next").click(function () {
+	if (state < stateMax) {
+		next();
+
+		state += 1;
+
+		// Enables 'back' button if disabled
+		$("#back").removeClass("disabled");
+
+		// Adds class to make nodes green
+		$(".nConfirm" + state).each(function () {
+			$(this).addClass("done");
+		});
+
+		// Progress bar animation
+		var pBar = (state / stateMax) * 100;
+		$(".pBar").css("width", `${pBar}%`);
+
+		// Disables 'next' button if end of steps
+		if (state == 4) {
+			$("#next").addClass("disabled");
+		}
+	}
+});
+
+$("#back").click(function () {
+	if (state > 0) {
+		back();
+
+		// Enables 'next' button if disabled
+		$("#next").removeClass("disabled");
+
+		// removes class that makes nodes green
+		$(".nConfirm" + state).each(function () {
+			$(this).removeClass("done");
+		});
+
+		state -= 1;
+
+		// Progress bar animation
+		var pBar = (state / stateMax) * 100;
+		$(".pBar").css("width", `${pBar}%`);
+
+		// Disables 'back' button if end of steps
+		if (state == 0) {
+			$("#back").addClass("disabled");
+		}
+	}
+});
+    // progress-bar-end
+</script>
+  </body>
+</html>
